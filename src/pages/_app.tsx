@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>Nexjs + Chakra Boilerplate</title>
+        <title>Matheus Pires - Dev Front-End</title>
 
         <link rel="shortcut icon" href="/img/icon-512.png" />
 
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           name="description"
-          content="Boilerplate configurado com NextJS + Typescript + Eslint + ChakraUI"
+          content="Matheus Pires - Desenvolvedor Front End"
         />
         <script src="https://unpkg.com/feather-icons"></script>
         <script>feather.replace()</script>
