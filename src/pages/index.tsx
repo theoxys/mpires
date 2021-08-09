@@ -26,7 +26,6 @@ export default function Home() {
       <Stack spacing="4" align="center" justify="center" w="1440px">
         <DarkMode>
           <Flex w="100%" h="60px" pt="24px" align="flex-start" px="6">
-            <Logo />
             <Navbar />
           </Flex>
         </DarkMode>

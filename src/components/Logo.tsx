@@ -1,12 +1,16 @@
 import React from 'react'
 
-export const Logo = () => {
+interface LogoData {
+  size?: string
+}
+
+export const Logo = ({ size = '40px' }: LogoData) => {
   return (
     <img
-      src="assets/Logo.png"
+      src="assets/logo.svg"
       style={{
         display: 'inline-block',
-        height: '40px',
+        height: size,
         objectFit: 'contain'
       }}
     />
