@@ -24,7 +24,7 @@ import { NavbarButton } from './NavbarButton'
 const WebNavbar = () => {
   return (
     <Flex w="100%" align="center" justify="space-between">
-      <Logo />
+      <Logo size="40px" />
       <Stack
         align="flex-end"
         justify="flex-end"
